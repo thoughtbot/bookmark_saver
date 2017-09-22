@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "Bookmark Saver",
+  "version": "0.1",
+  "description": "Example Chrome Redux extension",
+  "browser_action": {
+      "default_icon": {
+        "16": "assets/ralph.png",
+        "32": "assets/ralph.png",
+        "48": "assets/ralph.png",
+        "128": "assets/ralph.png"
+      },
+      "default_title": "Click to save bookmark",
+      "default_popup": "pages/popup.html"
+  },
+  "icons": {
+    "16": "assets/ralph.png",
+    "32": "assets/ralph.png",
+    "48": "assets/ralph.png",
+    "128": "assets/ralph.png"
+  },
+  "author": "Bruno Antunes <bruno@thoughtbot.com>",
+  "background": {
+      "page": "pages/background.html"
+  },
+  "permissions": [ "tabs" ],
+  "minimum_chrome_version": "60"
+}
